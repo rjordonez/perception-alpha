@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply antialiased bg-white text-primary dark:bg-[#111] dark:text-white;
+    font-family: 'Inter', sans-serif;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Poppins', sans-serif;
+    @apply tracking-tight font-semibold;
+  }
+}
+
+.search-input-shadow {
+  box-shadow: 0 0 0 2px rgba(71, 141, 245, 0.2);
+}
